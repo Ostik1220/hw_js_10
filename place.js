@@ -51,12 +51,12 @@
 //   console.log(result); // [1, 4, 9, 16, 25...]
 
   //5
-  const calculateDiscoutedPrice = (price, discount, callback) => {
-    const discountedPrice = price - (price * (discount / 100)); 
-    callback(discountedPrice); 
-  };
+//   const calculateDiscoutedPrice = (price, discount, callback) => {
+//     const discountedPrice = price - (price * (discount / 100)); 
+//     callback(discountedPrice); 
+//   };
 
-  const showDiscountedPrice = (price) => {
-    console.log(`Дисконтна ціна: ${price}`); 
-  };
-  calculateDiscoutedPrice(1200, 12, showDiscountedPrice)
+//   const showDiscountedPrice = (price) => {
+//     console.log(`Дисконтна ціна: ${price}`); 
+//   };
+//   calculateDiscoutedPrice(1200, 12, showDiscountedPrice)
